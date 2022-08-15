@@ -2,12 +2,12 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --white-text-color: #ffffff;
-    --accent-color: #2196f3;
+    --accent-color: #2196F3;
     --black-logo-color: #000000;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --white-background-color: #ffffff;
-    --hero-background-color: #2f303a;
-    --team-background-color: #f5f4fa;
+    --hero-background-color: #2F303A;
+    --team-background-color: #F5F4FA;
 }
 
 body {
@@ -17,6 +17,193 @@ body {
     color: var(--primary-text-color);
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.logo-white {
+    color: var(--white-text-color);
+}
+
+.logo-black {
+    color: var(--black-logo-color);
+}
+
+
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.header-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--accent-color);
+}
+
+.header-nav-link.current {
+    color: var(--accent-color);
+}
+
+
+.portfolio-btn {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    background-color: var(--team-background-color);
+    cursor: pointer;
+    color: var(----primary-text-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color);
+}
+
+
+.studio-header {
+    background-color: var(--hero-background-color);
+    width: 100%;
+    height: 600px;
+}
+
+.studio-header-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    text-align: center;
+}
+
+.studio-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+.studio-presentation-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--primary-text-color);
+        text-align: left;
+}
+
+.studio-presentation-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: lowercase;
+    color: var(--secondary-text-color);
+    text-align: left;
+}
+
+.studio-presentation-text::first-letter {
+    text-transform: uppercase;
+}
+
+.occupation-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+.employee-name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+.employee-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--secondary-text-color);
+
+}
+
+
 .footer {
     background-color: var(--hero-background-color);
+    width: 100%;
+    height: 252px;
+}
+
+.footer-contact-link.address {
+    color: var(--white-text-color);
+}
+
+.footer-contact-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-text-color);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--accent-color);
 }
